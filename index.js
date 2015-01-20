@@ -17,8 +17,6 @@ var EnvironmentVars = function(pathToDotEnvFile, fileName) {
   this.fileName = fileName || '.env';
   this.filePath = pathToDotEnvFile;
   this._resetCache();
-  this.envVars = envVars;
-  this.envFileVars = envFileVars;
 
 };
 
