@@ -1,6 +1,6 @@
 {
   "name": "environment-vars",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Helper library to load environment variables from either process.env or a .env file",
   "main": "index.js",
   "directories": {
