@@ -1,0 +1,34 @@
+{
+  "name": "environment-vars",
+  "version": "1.0.0",
+  "description": "Helper library to load environment variables from either process.env or a .env file",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha test/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Mapistry/environmentVars.git"
+  },
+  "keywords": [
+    "environment",
+    "variables",
+    "vars",
+    "env"
+  ],
+  "author": "thataustin@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mapistry/environmentVars/issues"
+  },
+  "homepage": "https://github.com/Mapistry/environmentVars",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.1.0",
+    "shelljs": "^0.3.0",
+    "sinon": "^1.12.2"
+  }
+}
