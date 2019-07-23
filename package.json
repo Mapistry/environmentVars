@@ -26,8 +26,9 @@
   },
   "homepage": "https://github.com/Mapistry/environmentVars",
   "devDependencies": {
-    "expect.js": "^0.3.1",
-    "mocha": "^2.1.0",
+    "@types/node": "^12.6.8",
+    "chai": "4.2.0",
+    "mocha": "6.1.4",
     "shelljs": "^0.3.0",
     "sinon": "^1.12.2"
   }

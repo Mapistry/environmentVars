@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "test": "mocha tests/test-env-var.js"
+  },
+  "dependencies": {
+    "mocha": "^6.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "8.0.0",
+    "sinon": "7.3.2",
+    "typescript": "^3.5.3"
+  }
+}

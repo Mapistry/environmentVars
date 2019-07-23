@@ -1,7 +1,7 @@
 var fs = require('fs');
-var sinon = require('sinon');
-var expect = require('expect.js');
+var chai = require('chai');
 var EnvironmentVars = require('../index');
+var expect = chai.expect;
 
 describe('environmentVars', function() {
 
