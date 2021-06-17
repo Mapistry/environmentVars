@@ -6,7 +6,7 @@ For example, if your tests run in a place where the environment isn't bootstrapp
 After you configure the module, and call `.get('ENV_VAR_NAME')`, the module first looks in process.env (the environment) to see if the variable is there.
 If it's not found there - and assuming you've set this module up to know where a `.env` file is - it will try to load the variable from `.env`
 
-####Example Usage
+#### Example Usage
 
     // path is node's handy internal module for normalizing filepaths
     var path = require('path');
@@ -25,8 +25,8 @@ Above, the `envVars` variable is configured to search for a file full of environ
 
 Passing in `.env` isn't required.  The default is `.env`, so you really only need to pass in a 2nd option to the constructor if you use a file of a different name.
 
-####Performance Considerations
+#### Performance Considerations
 The module will cache the environment variable file after it's read from disk the first time.  If you'd like to force it to re-read from disk, call the `_resetCache` method.
 
-####Contributing
+#### Contributing
 PR's welcome :)
